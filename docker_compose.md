@@ -5,6 +5,7 @@ docker-compose up -d --build
 
 # ใช้เมื่อไม่มีการเปลี่ยนแปลงที่ docker file
 docker-compose up -d
+docker-compose -f docker-compose.debug.yml up
 
 2. Next step เราจะเพิ่ม mysql และ phpmyadmin เข้ามา
 
